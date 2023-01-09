@@ -17,7 +17,7 @@
 @media only screen and (min-width: 599px) and (max-width: 767px) {
     .about_text {
         width: 100%;
-        font-size: 15px;
+        font-size: 20px;
     }
     .logo {
         text-align: center;
@@ -93,7 +93,7 @@
 @media only screen and (min-width: 280px) and (max-width: 599px) {
     .about_text {
         width: 100%;
-        font-size: 15px;
+        font-size: 18px;
     }
     .cart-content-right {
         padding-bottom: 5px;
@@ -264,7 +264,7 @@
         
     }
     .about_taital {
-        font-size: 30px;
+        font-size: 35px;
         padding-top: 0px;
     }
     .image_1 {
@@ -405,7 +405,7 @@
         height: 50px;
     }
     .about_taital {
-        font-size: 34px;
+        font-size: 25px;
         padding-top: 0px;
     }
     .image_1 {
@@ -585,7 +585,7 @@
         height: 50px;
     }
     .about_taital {
-        font-size: 24px;
+        font-size: 30px;
         padding-top: 0px;
     }
     .image_1 {
