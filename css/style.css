@@ -307,16 +307,28 @@ button {
 
 .book_bt {
     width: 300px;
-    
     margin: 0 auto;
     text-align: center;
+}
+
+@media (max-width: 994px){
+    .banner_taital_1  {
+        font-size: 20px;
+    }
+    .banner_taital  {
+        font-size: 15px;
+    }
+    .banner_text  {
+        font-size: 13px;
+    }
+
 }
 
 .book_bt a {
     height: 70px;
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 15px;
     color: #ffffff;
     text-align: center;
     background-color: #000;
@@ -442,6 +454,7 @@ button {
     background-size: cover;
     padding-bottom: 40px;
     border-radius: 30px;
+    margin-bottom: 10px;
 }
 
 .number_text {
@@ -485,6 +498,7 @@ button {
     background-size: cover;
     padding-bottom: 40px;
     border-radius: 30px;
+    margin-bottom: 10px;
 }
 
 .number_text_1 {
@@ -510,6 +524,7 @@ button {
     padding-bottom: 40px;
     border-radius: 30px;
     background-repeat: no-repeat;
+    margin-bottom: 10px;
 }
 
 .number_text_2 {
