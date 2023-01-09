@@ -49,6 +49,7 @@ body {
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a {
@@ -284,20 +285,35 @@ button {
 .banner_text {
     width: 81%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 25px;
     color: #ffffff;
     text-align: center;
     padding-top: 30px;
     display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner_text2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 81%;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .book_bt {
-    width: 170px;
+    width: 300px;
+    
     margin: 0 auto;
     text-align: center;
 }
 
 .book_bt a {
+    height: 70px;
     width: 100%;
     float: left;
     font-size: 16px;
@@ -306,13 +322,18 @@ button {
     background-color: #000;
     border: 2px solid #ffffff;
     border-radius: 30px;
-    padding: 9px 0px;
+    padding: 4px 0px;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .book_bt a:hover {
     background-color: transparent;
-    border: 2px solid #ffffff;
+    border: 2px solid #1ce901;
 }
 
 .carousel-indicators li {
@@ -340,16 +361,18 @@ button {
     color: #1d1c1c;
     font-weight: bold;
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .about_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 20px;
     color: #010304;
     margin: 0px;
+
 }
 
 .read_bt {
