@@ -313,7 +313,7 @@ button {
 
 @media (max-width: 994px){
     .banner_taital_1  {
-        font-size: 30px;
+        font-size: 40px;
     }
     .banner_taital  {
         font-size: 25px;
@@ -325,7 +325,7 @@ button {
 }
 @media (max-width: 756px){
     .banner_taital_1  {
-        font-size: 25px;
+        font-size: 35px;
     }
     .banner_taital  {
         font-size: 20px;
@@ -337,7 +337,7 @@ button {
 }
 @media (max-width: 500px){
     .banner_taital_1  {
-        font-size: 20px;
+        font-size: 30px;
     }
     .banner_taital  {
         font-size: 18px;
