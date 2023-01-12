@@ -43,13 +43,25 @@ html {
 }
 
 body {
-    color: #666666;
+    color: #ffffff;
     font-size: 14px;
     font-family: Roboto;
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
     font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(193, 192, 255),rgba(75, 27, 250, 0.555));
+    background-size: 500% 100%;
+    animation: degrade 3s infinite alternate;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
 }
 
 a {
@@ -548,6 +560,7 @@ button {
     padding-bottom: 40px;
     border-radius: 30px;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
     
 }
 
