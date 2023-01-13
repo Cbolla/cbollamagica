@@ -50,7 +50,7 @@ body {
     font-weight: normal;
     overflow-x: hidden;
     font-family: 'Courier New', Courier, monospace;
-    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(193, 192, 255),rgba(75, 27, 250, 0.555));
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(209, 209, 209),rgba(235, 235, 235, 0.555));
     background-size: 500% 100%;
     animation: degrade 3s infinite alternate;
 }
