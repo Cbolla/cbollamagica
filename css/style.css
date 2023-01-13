@@ -448,7 +448,14 @@ button {
 .image_1 {
     width: 100%;
     float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+.image_1 iframe{
+    padding: 5px;
+}
+
 
 .game_section {
     width: 100%;

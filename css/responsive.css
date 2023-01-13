@@ -269,6 +269,7 @@
     }
     .image_1 {
         padding-top: 30px;
+        display: flex;
     }
     .game_taital {
         font-size: 30px;
@@ -590,6 +591,8 @@
     }
     .image_1 {
         padding-top: 30px;
+        display: flex;
+        flex-direction: column;
     }
     .game_taital {
         font-size: 24px;
